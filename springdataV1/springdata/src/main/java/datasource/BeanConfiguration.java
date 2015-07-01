@@ -25,7 +25,7 @@ import org.springframework.transaction.PlatformTransactionManager;
 
 public class BeanConfiguration {
 	
-	//recuperer db driver
+	//recuperer db driver  
 	@Value("${db.driver}")
 	private String driverClassName;
 	@Value("${db.url}")
